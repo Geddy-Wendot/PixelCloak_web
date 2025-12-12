@@ -4,7 +4,7 @@
 
 This repository hosts the official marketing and documentation website for **PixelCloak**, a secure steganographic journal application built for the **GDG Maseno Mini Hackathon - Technology for Wellness**.
 
-🌐 **[View Live Website](https://YOUR-USERNAME.github.io/pixelcloak-web/)**
+🌐 **[View Live Website](https://geddy-wendot.github.io/PixelCloak_web/)**
 
 
 ## 🎯 Purpose
