@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelCloak - Secure Mental Wellness Journal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Pixel<span class="highlight">Cloak</span></h1>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-to-use">How to Use</a></li>
+                <li><a href="https://github.com/Geddy-Wendot/PixelCloak" class="btn-nav">View on GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Your Thoughts, <br> Hidden in Plain Sight.</h2>
+                <p>A secure steganographic journal that encrypts your deepest secrets and hides them inside innocent images. Built for mental wellness and privacy.</p>
+                <div class="buttons">
+                    <a href="https://github.com/Geddy-Wendot/PixelCloak" class="btn primary-btn">
+                        <i class="fab fa-github"></i> Download Source Code
+                    </a>
+                    <a href="#how-to-use" class="btn secondary-btn">Read the Guide</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="PixelCloak.png" alt="PixelCloak App Interface" class="app-mockup">
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why PixelCloak?</h2>
+                <p>Technology built to protect your mental space.</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fas fa-fingerprint"></i></div>
+                    <h3>AES-256 Encryption</h3>
+                    <p>Your journal entries are locked with military-grade AES-GCM encryption before they ever touch the image.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fas fa-image"></i></div>
+                    <h3>Invisible Ink</h3>
+                    <p>Using LSB Steganography, your text is embedded into the pixels of a photo. It looks like a normal image to everyone else.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Duress Protection</h3>
+                    <p>In a tough situation? Enter a panic code to open a decoy journal, keeping your real thoughts safe from coercion.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fab fa-python"></i></div>
+                    <h3>Smart Analysis</h3>
+                    <p>Our integrated Python engine analyzes images to ensure they are complex enough to hide your secrets safely.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-to-use" class="steps">
+        <div class="container">
+            <div class="section-header">
+                <h2>How to Install & Use</h2>
+                <p>Get started with PixelCloak on your local machine.</p>
+            </div>
+            
+            <div class="step-process">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <div class="step-text">
+                        <h3>Prerequisites</h3>
+                        <p>Ensure you have <strong>Java JDK 17+</strong> and <strong>Python 3.10+</strong> installed.</p>
+                        <code>pip install pillow</code>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <div class="step-text">
+                        <h3>Clone & Run</h3>
+                        <p>Clone the repository and run the app using IntelliJ IDEA or Maven.</p>
+                        <code>mvn exec:java -Dexec.mainClass="com.pixelcloak.app.App"</code>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <div class="step-text">
+                        <h3>Write & Hide</h3>
+                        <p>Load an image, write your journal entry, set a password, and click <strong>"Hide and Save"</strong>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-to-use" class="steps">
+        <div class="container">
+            <div class="section-header">
+                <h2>How to Use PixelCloak</h2>
+                <p>Securing your thoughts is as easy as 1-2-3.</p>
+            </div>
+            
+            <div class="usage-grid">
+                <div class="usage-column">
+                    <h3><i class="fas fa-lock"></i> Hiding a Secret</h3>
+                    
+                    <div class="step-item">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Load Image</h4>
+                            <p>Click <strong>Load Image</strong> to pick a photo. Our system analyzes it for complexity.</p>
+                            <img src="images/LoadImage.png" alt="Loading an image" class="step-image">
+                        </div>
+                    </div>
+
+                    <div class="step-item">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Write & Secure</h4>
+                            <p>Type your entry and set a strong <strong>Encryption Password</strong>.</p>
+                            <img src="images/write text&pass.png" alt="Writing text and setting password" class="step-image">
+                        </div>
+                    </div>
+
+                    <div class="step-item">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Hide & Save</h4>
+                            <p>Click <strong>Hide and Save</strong> to create your secure PNG file.</p>
+                            <img src="images/save.png" alt="Saving the encrypted image" class="step-image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="usage-column">
+                    <h3><i class="fas fa-unlock-alt"></i> Retrieving Your Text</h3>
+
+                    <div class="step-item">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Load Cloaked Image</h4>
+                            <p>Open PixelCloak and load the secret PNG file.</p>
+                            <img src="images/LoadImage.png" alt="Loading the secret image" class="step-image">
+                        </div>
+                    </div>
+
+                    <div class="step-item">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Authenticate</h4>
+                            <p>Enter the exact password you used during encryption.</p>
+                            <img src="images/authenticate.png" alt="Entering password" class="step-image">
+                        </div>
+                    </div>
+
+                    <div class="step-item">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Reveal</h4>
+                            <p>Click <strong>Reveal Text</strong>. Your message appears instantly.</p>
+                            <img src="images/write text&pass.png" alt="Revealing the secret text" class="step-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Built for the <strong>GDG Maseno Mini Hackathon</strong> &copy; 2025</p>
+            <p>Developed by Team PixelCloak</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
